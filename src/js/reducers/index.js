@@ -6,6 +6,8 @@ const initialState = {
   articles: []
 };
 
+const rootReducer = (state = initialState, action) => state;
+
 const rootReducer = (state = initialState, action) => {
   switch (action.type) {
     case ADD_ARTICLE:
@@ -17,6 +19,5 @@ const rootReducer = (state = initialState, action) => {
       return state;
   }
 };
-
 
 export default rootReducer;
