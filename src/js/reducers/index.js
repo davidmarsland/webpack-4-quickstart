@@ -1,6 +1,6 @@
 // src/js/reducers/index.js
 
-conts initialState = {
+const initialState = {
   articles: []
 };
 
